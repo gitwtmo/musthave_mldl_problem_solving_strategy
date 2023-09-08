@@ -96,7 +96,7 @@ titanic = sns.load_dataset('titanic')
 ```
 sns.histplot(data=titanic, x='age')
 ```
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter3.ipynb#히스)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb)
 <br/>
 
 ## 커널밀도추정 함수 그래프(kdeplot)
