@@ -110,7 +110,7 @@ sns.kdeplot(data=<data_set>, x=<colum_name>)
 ```
 sns.displot(data=<data_set>, x=<colum_name>)
 ```
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=rT8ommCuDuDN)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#분포도displot)
 <br/><br/>
 
 ## 러그플롯(rugplot)
