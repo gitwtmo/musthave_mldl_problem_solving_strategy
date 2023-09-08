@@ -1,8 +1,8 @@
 ## 목차
 1. [머신러닝 문제해결 프로세스](#머신러닝-문제해결-프로세스)  
-1.1. [체크리스트](#체크리스트)
+1.1. [머신러닝 체크리스트](#머신러닝-체크리스트)
 2. [딥러닝 문제해결 프로세스](#딥러닝-문제해결-프로세스)  
-2.1. [체크리스트](#체크리스트-1)  
+2.1. [딥러닝 체크리스트](#딥러닝-체크리스트)  
 
 <br/><br/>
 
@@ -44,7 +44,7 @@
 |피쳐 엔지니어링|이상치 제거, 결측치 처리, 인코딩, 스케일링, 복합 피쳐 생성 및 제거를 진행하며 **도메인 지식**이 많이 필요하다|
 |하이퍼 파라미터 최적화|파라미터 튜닝을 통하여 최적의 파라미터를 찾는 과정(RandomSearch, GridSearch, bayesian-optimization)|
 
-### [체크리스트](https://docs.google.com/spreadsheets/d/1kVygnwbR_YUpNFgw-6mZQuPn8ILY2m3vl32BOu7gQsc/edit#gid=39315817)
+### [머신러닝 체크리스트](https://docs.google.com/spreadsheets/d/1kVygnwbR_YUpNFgw-6mZQuPn8ILY2m3vl32BOu7gQsc/edit#gid=39315817)
 
 <br/><br/>
 
@@ -84,5 +84,5 @@
 |성능 검증|모델의 성능을 확인하는 단계로 성능이 부족하면 EDA부터 다시 시작|
 |결과 예측 및 제출|훈련 모델을 사용하여 테스트 데이터를 예측|
 
-### [체크리스트](https://docs.google.com/spreadsheets/d/1kVygnwbR_YUpNFgw-6mZQuPn8ILY2m3vl32BOu7gQsc/edit#gid=1051001003)
+### [딥러닝 체크리스트](https://docs.google.com/spreadsheets/d/1kVygnwbR_YUpNFgw-6mZQuPn8ILY2m3vl32BOu7gQsc/edit#gid=1051001003)
 <!-- ### [체크리스트](../../minimap/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%EB%94%A5%EB%9F%AC%EB%8B%9D%20%EB%AC%B8%EC%A0%9C%ED%95%B4%EA%B2%B0%20%EC%A0%84%EB%9E%B5%20%EA%B3%B5%EB%9E%B5%EC%A7%91.pdf) -->
