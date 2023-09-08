@@ -87,86 +87,124 @@
 아래의 코드는 수치형 데이터 분석에 사용되는 기본 코드입니다.
 ```
 import seaborn as sns
-titanic = sns.load_dataset('titanic')
+<data_set> = sns.load_dataset('titanic')
 ```
 
 <br/>
 
 ## 히스토그램(histplot)
 ```
-sns.histplot(data=titanic, x='age')
+sns.histplot(data=<data_set>, x=<colum_name>)
 ```
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb)
-<br/>
-
-## 커널밀도추정 함수 그래프(kdeplot)
-
-
-<br/>
-
-## 분포도(displot)
-
-
-<br/>
-
-## 러그플롯(rugplot)
-
-
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=zslTSLN-DuDM)
 <br/><br/>
 
-# 범주형 데이터 시각화
+## 커널밀도추정 함수 그래프(kdeplot)
+```
+sns.kdeplot(data=<data_set>, x=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=5pSIaWY8DuDN)
+<br/><br/>
 
+## 분포도(displot)
+```
+sns.displot(data=<data_set>, x=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=rT8ommCuDuDN)
+<br/><br/>
+
+## 러그플롯(rugplot)
+```
+sns.rugplot(data=<data_set>, x=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=qIqq5GjJDuDN)
+<br/><br/><br/>
+
+# 범주형 데이터 시각화
+ㅇㅇ
+```
+import seaborn as sns
+<data_set> = sns.load_dataset('titanic')
+```
 
 <br/>
 
 ## 막대 그래프(barplot)
-
-
-<br/>
-
-## 포인트플롯(pointplot)
-
-
-<br/>
-
-## 박스플롯(boxplot)
-
-
-<br/>
-
-## 바이올린플롯(violinplot)
-
-
-<br/>
-
-## 카운트플롯(countplot)
-
-
-<br/>
-
-## 파이크래프(pie)
-
-
+```
+sns.barplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=IdSISTQcDuDO)
 <br/><br/>
 
-# 데이터 관계 시각화
+## 포인트플롯(pointplot)
+```
+sns.pointplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=vasrGJ9fDuDO)
+<br/><br/>
 
+## 박스플롯(boxplot)
+```
+sns.boxplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=yeN0jnRWDuDO)
+<br/><br/>
+
+## 바이올린플롯(violinplot)
+```
+sns.violinplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=4lbsdj4fDuDO)
+<br/><br/>
+
+## 카운트플롯(countplot)
+```
+sns.countplot(data=<data_set>, x=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=3TnwZSTbDuDO)
+<br/><br/>
+
+## 파이크래프(pie)
+```
+import matplotlib.pyplot as plt
+plt.pie(x=x, label=<data_set>, autopct='%.1f%%')
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=ZfTTbrnIDuDO)
+<br/><br/><br/>
+
+# 데이터 관계 시각화
+ㅇㅇ
+```
+import seaborn as sns
+<data_set> = sns.load_dataset('flights')
+```
 
 <br/>
 
 ## 히트맵(heatmap)
-
-
-<br/>
+```
+pivot=<data_set>.pivot(index=, columns=, values=)
+sns.heatmap(data=<pivot>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=c5J72GZ9DuDO)
+<br/><br/>
 
 ## 라인플롯(lineplot)
-
-
-<br/>
+```
+sns.lineplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=cErNQUOuDuDO)
+<br/><br/>
 
 ## 산점도(scatterplot)
-
-
-<br/>
+```
+sns.scatterplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=k4Qdw8wwDuDO)
+<br/><br/>
 
 ## 회귀선을 포함한 산점도 그래프(regplot)
+```
+sns.regplot(data=<data_set>, x=<colum_name>, y=<colum_name>)
+```
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter4.ipynb#scrollTo=TLI8S7P_DuDO)
