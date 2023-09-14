@@ -57,7 +57,8 @@
 |RMSE|$\sqrt{{1 \over N} \sum_{i=1}^N(y_i - \hat{y_i})^2}$||
 |MSLE|${1 \over N} \sum_{i=1}^N(log(y_i+1)-log(\hat{y_i}+1))^2$|$-\infty$를 방지하기 위하여 log에 +1을 취함|
 |RMSLE|$\sqrt{{1 \over N} \sum_{i=1}^N(log(y_i+1)-log(\hat{y_i}+1))^2}$|$-\infty$를 방지하기 위하여 log에 +1을 취함|
-|$R^2$|$ \hat{\sigma}^2 \over {\sigma}^2$|1에 근첩하는게 정확도가 높음|
+|$R^2$|$ \hat{\sigma}^2 \over {\sigma}^2$|1에 근첩하는게 정확도가 높음|  
+
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#회귀)
 
 * 상관계수  
@@ -335,3 +336,5 @@ tree는 root(뿌리), intermediate(중간), leaf(말단) node로 나뉘어짐
 
 ## 베이지안 최적화  
 사전 정보를 바탕으로 최적의 파라미터를 찾아가기
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#베이지안-최적화)
