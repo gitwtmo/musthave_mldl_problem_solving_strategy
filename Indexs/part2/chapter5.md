@@ -59,7 +59,7 @@
 |RMSLE|$\sqrt{{1 \over N} \sum_{i=1}^N(log(y_i+1)-log(\hat{y_i}+1))^2}$|$-\infty$를 방지하기 위하여 log에 +1을 취함|
 |$R^2$|$ \hat{\sigma}^2 \over {\sigma}^2$|1에 근첩하는게 정확도가 높음|  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#회귀)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#회귀)
 
 * 상관계수  
 일반적으로 피이슨 상관계수를 나타내며 경향의 강도, 경향의 방향을 가진다.
@@ -152,7 +152,7 @@ TNR은 특이도(specificity)라고도 불린다.
 범주형 데이터를 숫자로 1대1 매칭해주는 방법(1차원 데이터)  
 데이터간의 상관관계가 있을때 사용  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#레이블-인코딩)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#레이블-인코딩)
 
 <br/>
 
@@ -160,7 +160,7 @@ TNR은 특이도(specificity)라고도 불린다.
 범주형 데이터를 숫자로 1대1 매칭해주는 방법(고차원 데이터)  
 데이터간의 상관관계가 있을때 사용  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#오디널-인코딩)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#오디널-인코딩)
 
 <br/>
 
@@ -169,7 +169,7 @@ TNR은 특이도(specificity)라고도 불린다.
 메모리를 아끼기위하여 Compressed sparse row로 변환됨  
 데이터간의 상관관계가 없을때 사용  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#원-핫-인코딩)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#원-핫-인코딩)
 
 <br/><br/>
 
@@ -185,7 +185,7 @@ tree model은 피쳐들간의 크기에 영향을 받지 않아 필요없음
 $x_{scaled} = {{x-x_{min}} \over {x_{max}-x_{min}}}$  
 fit, transform을 따로 할때 음수 발현가능
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#min-max-정규화normalization)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#min-max-정규화normalization)
 
 <br/>
 
@@ -193,7 +193,7 @@ fit, transform을 따로 할때 음수 발현가능
 평균이 0, 분산이 1이 되게 피쳐를 조정  
 $x_{scaled} = {{x-\hat{x}}\over{\sigma}}$
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#min-max-표준화standardization)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#min-max-표준화standardization)
 
 <br/><br/>
 
@@ -212,7 +212,7 @@ $x_{scaled} = {{x-\hat{x}}\over{\sigma}}$
 2. 그룹을 하나의 valid_data, K-1의 practive_data로 지정하여 여러 폴드 생성
 3. K개의 폴드를 평가 후 평균을 구함
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#K-폴드-교차-검증)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#K-폴드-교차-검증)
 
 <br/>
 
@@ -222,7 +222,7 @@ K 폴드 교차 검증에서 업그레이드 버전으로 분류문제에서 주
 * 특정 타겟이 다른 타겟에 비해 너무 적을때  
 * 특정 타겟의 균등한 분배가 필요할때
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#층화-K-폴드-교차-검증)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#층화-K-폴드-교차-검증)
 
 <br/><br/>
 
@@ -233,7 +233,7 @@ K 폴드 교차 검증에서 업그레이드 버전으로 분류문제에서 주
 ## 선형 회귀 모델  
 선형 회귀식을 사용하는 모델
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#선형-회귀-모델)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#선형-회귀-모델)
 
 <br/>
 
@@ -257,7 +257,7 @@ $$p(X) = \tfrac{1}{1+e^{-\beta X}}$$
 * logistic function  
 sigmoid 함수 만들어진 예측 모델  
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#로지스틱-회귀-모델)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#로지스틱-회귀-모델)
 
 <br/>
 
@@ -288,7 +288,7 @@ tree는 root(뿌리), intermediate(중간), leaf(말단) node로 나뉘어짐
 * 소프트 보팅(soft voting)  
 실행한 모델들에서 나온 확률의 평균값으로 진행
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#앙상블-학습)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#앙상블-학습)
 
 * 배깅(bagging)  
 개별 모델에 다른 데이터셋(랜덤 샘플링(복원 추출)을 통하여 샘플수를 늘리는 방식)을 활용해 보팅하는 방식
@@ -301,21 +301,21 @@ tree는 root(뿌리), intermediate(중간), leaf(말단) node로 나뉘어짐
 ## 랜덤 포레스트  
 결정 트리에 배깅을 시행한 앙상블 기법
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#랜덤-포레스트)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#랜덤-포레스트)
 
 <br/>
 
 ## XGBoost  
 결정 트리에 부스팅을 시행한 앙상블 기법
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#XGBoost)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#XGBoost)
 
 <br/>
 
 ## LightGBM  
 결정 트리에 부스팅을 시행한 앙상블 기법으로 XGBoost와 다르게 lead node가 예측 오류가 최소가되는 방향으로 깊이 분할을 합니다.
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#XGBoost)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#XGBoost)
 
 <br/><br/>
 
@@ -337,4 +337,4 @@ tree는 root(뿌리), intermediate(중간), leaf(말단) node로 나뉘어짐
 ## 베이지안 최적화  
 사전 정보를 바탕으로 최적의 파라미터를 찾아가기
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part1/chapter5.ipynb#베이지안-최적화)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/gitwtmo/musthave_mldl_problem_solving_strategy/blob/main/Indexs/part2/chapter5.ipynb#베이지안-최적화)
